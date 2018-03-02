@@ -1,4 +1,4 @@
-## how to make an attractive calculator ##
+## how to make a simple calculator ##
 
 from math import log,cos,sin, tan
 
@@ -55,7 +55,7 @@ def Exponent():
 
 def Logarithm():
     """log base a of b"""
-    a= input("enter the base: ")
+    a= input("enter the base_value: ")
     b= input("enter the value: ")
     equation= 'log base' + a + 'of' +b + '='
     print(equation)
@@ -146,10 +146,8 @@ def Run_calculator():
 		print("Invalid Selection of type"
 		sleep(3)
 	sleep(3)
-    run_calculator()
-run_calculator()
+	
+   run_calculator()
 
-from tkinter import *
-window =Tk()
-# defining the labels like 		
+ 		
 	
