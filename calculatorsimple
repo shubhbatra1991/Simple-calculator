@@ -37,7 +37,7 @@ def Division():
     """Division of two numbers"""
     a= input("enter the value: ")
     b= input("enter the value: ")
-    equation= a + '/' +b + '='
+    equation= a + '/' +b + '=' 
     print(equation)
     answer= float(a)+float(b)
     print(answer)
